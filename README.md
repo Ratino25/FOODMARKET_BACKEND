@@ -63,5 +63,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 database : mysql
 Email : Mailtrap 
 bug Monitoring : bugsentry
+Laravel jetstram
 
 
