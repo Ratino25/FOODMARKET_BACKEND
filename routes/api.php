@@ -26,3 +26,5 @@ Route::post('login', [UserController::class, 'login']);
 Route::post('register', [UserController::class, 'register']);
 
 Route::get('food', [FoodController::class, 'all']);
+
+Route::post('midtrans/callback', [MidtransController::class, 'callback']);
