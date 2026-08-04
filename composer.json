@@ -12,6 +12,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6.4",
+        "midtrans/midtrans-php": "^2.6",
         "sentry/sentry-laravel": "*"
     },
     "require-dev": {
