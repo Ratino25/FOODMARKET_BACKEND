@@ -1,0 +1,72 @@
+# ==========================================
+# 1. DIREKTORI PYTHON & VIRTUAL ENVIRONMENT
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+htmlcov/
+.coverage
+.coverage.*
+
+# ==========================================
+# 2. DIREKTORI JAVASCRIPT & NODE (REACTJS)
+# ==========================================
+node_modules/
+.npm/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Hasil Build / Output Produksi React
+dist/
+build/
+.next/
+out/
+.docusaurus/
+
+# Cache Editor & Bundler
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.turbo/
+
+# ==========================================
+# 3. DOKUMENTASI & FILE DATA BESAR
+# ==========================================
+*.md
+*.txt
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+# Catatan: Jika butuh Copilot membaca package.json, hapus baris di bawah ini
+package.json
+
+# ==========================================
+# 4. FILE SYSTEM, LOG, DAN ENVIRONMENT
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
