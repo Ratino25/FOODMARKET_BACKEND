@@ -40,5 +40,10 @@ class DatabaseSeeder extends Seeder
             'phoneNumber' => '089876543210',
             'city' => 'Bandung',
         ]);
+
+        // Seed Dummy Transactions
+        $this->call([
+            TransactionSeeder::class,
+        ]);
     }
 }
